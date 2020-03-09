@@ -1,12 +1,1 @@
-7. Ask Max for the API keys you need to use the Twitter API. Put what he gives you in a new `.env` file in this repository.
-
-**If you are not in the Bits of Good Bootcamp, you will have to request access to the [Twitter API](http://developer.twitter.com/) yourself.**
-
-Once when you have access, put the API keys that Twitter gives you in the `.env` file using the following format:
-
-```
-CONSUMER_KEY=abcdef...
-CONSUMER_SECRET=abcdef...
-ACCESS_TOKEN_KEY=abcdef...
-ACCESS_TOKEN_SECRET=abcdef...
-```
+8. Read [this Medium article](https://medium.com/chingu/an-introduction-to-environment-variables-and-how-to-use-them-f602f66d15fa) on what environment variables are and why we use them.
