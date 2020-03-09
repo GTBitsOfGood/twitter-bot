@@ -1,6 +1,7 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const dotenv = require('dotenv')
+const Twitter = require('twitter')
 
 // initialize environment variables from your .env file
 dotenv.config()
@@ -12,6 +13,7 @@ const auth = {
     access_token_key: process.env.ACCESS_TOKEN_KEY,
     access_token_secret: process.env.ACCESS_TOKEN_SECRET,
 }
+const client = new Twitter(auth)
 
 const app = express()
 
