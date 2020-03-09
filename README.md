@@ -1,1 +1,1 @@
-10. Use the `twitter` NPM docs to create an `auth` object that contains all the API keys you stored in your environment variables.
+11. Write `sendTweet` function. Have it send a tweet using the Twitter API [statuses/update](https://developer.twitter.com/en/docs/tweets/post-and-engage/api-reference/post-statuses-update) endpoint!
