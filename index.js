@@ -51,9 +51,9 @@ function tweetHandler(request, response) {
 
 }
 
-app.post('/tweet', tweetHandler)
-
 app.use(express.static('public'))
 app.use(bodyParser.urlencoded({extended: true}))
+
+app.post('/tweet', tweetHandler)
 
 app.listen(3000) // the port does not matter - we chose 3000 randomly
