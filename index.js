@@ -36,7 +36,17 @@ function sendTweet(tweet) {
 }
 
 function tweetHandler(request, response) {
-    // future code here
+    const tweet = request.body.tweet
+
+    if (tweet.length < 3) {
+        response.status(400)
+        response.send("Your Tweet must be at least 3 characters long!")
+    }
+
+    sendTweet(tweet)
+    response.status(200).send()
+    // challenge: response.redirect('https://twitter.com/bog_bot')
+
 }
 
 app.post('/tweet', tweetHandler)
