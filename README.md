@@ -1,7 +1,1 @@
-2. Install each of the following packages:
-    * `express`
-    * `twitter`
-    * `body-parser`
-    * `dotenv`
-
-**Solution:** Run `npm install express twitter body-parser dotenv`
+3. Get an Express server up and running with an endpoint for `POST` requests to the `/tweets` path
