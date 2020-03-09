@@ -1,1 +1,4 @@
-3. Get an Express server up and running with an endpoint for `POST` requests to the `/tweets` path
+4. Read about [Express middleware](https://expressjs.com/en/guide/using-middleware.html)
+
+
+## No code changes for this challenge, just make sure to read about Express middleware!
