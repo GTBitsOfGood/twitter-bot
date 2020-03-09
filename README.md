@@ -1,6 +1,4 @@
-```
 1. Initialize this repository as an NPM package
-```
 
 **Solution:** Run `npm init`
 
