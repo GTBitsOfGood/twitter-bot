@@ -5,6 +5,14 @@ const dotenv = require('dotenv')
 // initialize environment variables from your .env file
 dotenv.config()
 
+// access your API keys as environment variables
+const auth = {
+    consumer_key: process.env.CONSUMER_KEY,
+    consumer_secret: process.env.CONSUMER_SECRET,
+    access_token_key: process.env.ACCESS_TOKEN_KEY,
+    access_token_secret: process.env.ACCESS_TOKEN_SECRET,
+}
+
 const app = express()
 
 function tweetHandler(request, response) {
