@@ -43,11 +43,12 @@ function tweetHandler(request, response) {
     if (tweet.length < 3) {
         response.status(400)
         response.send("Your Tweet must be at least 3 characters long!")
+        return
     }
 
     sendTweet(tweet)
-    response.status(200).send()
-    // challenge: response.redirect('https://twitter.com/bog_bot')
+    // response.status(200).send()
+    response.redirect('https://twitter.com/bog_bot')
 
 }
 
