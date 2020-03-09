@@ -1,5 +1,9 @@
 const express = require('express')
 const bodyParser = require('body-parser')
+const dotenv = require('dotenv')
+
+// initialize environment variables from your .env file
+dotenv.config()
 
 const app = express()
 
