@@ -1,0 +1,19 @@
+{
+  "name": "twitter-bot",
+  "version": "1.0.0",
+  "description": "A Twitter Bot for the BoG Bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GTBitsOfGood/twitter-bot.git"
+  },
+  "author": "Bits of Good",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GTBitsOfGood/twitter-bot/issues"
+  },
+  "homepage": "https://github.com/GTBitsOfGood/twitter-bot#readme"
+}
